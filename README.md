@@ -1,3 +1,6 @@
+This project is a simple mimic of the likes counter on a youtube video or social media post. The PrimaryLikesServer which is the main server recieves a random number of likes from several small servers (LikesServers) that represent local servers used by everyday individuals. This respresents the principle of eventual consitency becasue while the number of likes on the PrimaryLikesServer may not be correct at a single instance in the middle of the programs runtime, it will be continuously updated by the LikesServer's. Once all the LikesServer's have sent their data, the number of likes in the PrimaryLikesServer will be correct.
+
+
 To run project, run makefile, run PrimaryLikesServer, then run ParentProcess
 
 
